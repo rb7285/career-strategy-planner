@@ -1,0 +1,17 @@
+# Web framework
+fastapi==0.111.0  # FastAPI app server
+uvicorn==0.30.1  # ASGI server
+
+# LangGraph / LangChain stack
+langchain==1.2.7  # LLM orchestration
+langchain-core==1.2.8  # Core interfaces
+langgraph==1.0.6  # Graph-based agent workflows
+
+# Data & config
+pydantic==2.7.4  # Data validation
+python-dotenv==1.0.1  # .env support
+
+# LLM clients (pick one)
+# openai==1.35.7  # OpenAI API client
+groq==0.9.0  # Groq API client
+langchain-groq==1.1.2  # LangChain Groq integration
