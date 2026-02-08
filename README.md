@@ -1,7 +1,7 @@
 # AI Career Strategy Planner
 
 ## Project overview
-AI Career Strategy Planner is a full-stack application that turns a user’s skills and goals into a structured, role-aligned career plan. It combines multi-step LLM reasoning (LangGraph) with a FastAPI backend and a Next.js frontend to deliver skill analysis, market insights, strategy recommendations, and a phased roadmap.
+AI Career Strategy Planner is a full-stack application that turns a userï¿½s skills and goals into a structured, role-aligned career plan. It combines multi-step LLM reasoning (LangGraph) with a FastAPI backend and a Next.js frontend to deliver skill analysis, market insights, strategy recommendations, and a phased roadmap.
 
 ## Problem statement
 Career planning is often fragmented across resumes, job listings, and vague advice. This project provides a structured workflow that analyzes skills, compares them to target roles, and generates an actionable roadmap in a consistent format that can be reused across agents and UIs.
@@ -16,7 +16,7 @@ The graph runs a sequential pipeline. Each node enriches shared state and passes
 1. **Skill Analysis**: Extracts strengths, gaps, and role-fit signals.
 2. **Market Intelligence**: Identifies in-demand and emerging skills, plus market gaps.
 3. **Career Strategy**: Selects a best-fit role, alternatives, and priority focus areas.
-4. **Roadmap Planning**: Produces a 3–6 month phased roadmap with weekly tasks.
+4. **Roadmap Planning**: Produces a 3ï¿½6 month phased roadmap with weekly tasks.
 
 All agent outputs are JSON-only for structured parsing and UI rendering.
 
@@ -81,7 +81,16 @@ curl -X POST http://localhost:8000/career-plan \
 ```
 
 ## Screenshots
-- _Add screenshots of the UI here_
+
+### Career Input & Skill Analysis
+![Career Input](screenshots/home.png)
+![Skill Analysis](screenshots/skill-analysis.png)
+
+### Roadmap Timeline
+![Roadmap Timeline](screenshots/roadmap-timeline.png)
+
+### Learning Roadmap
+![Roadmap](screenshots/roadmap.png)
 
 ## Future improvements
 - Add streaming responses for long-running agent steps.
